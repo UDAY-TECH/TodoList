@@ -1,0 +1,29 @@
+body{
+  font-family: Arial;
+}
+#main-heading{
+  text-align: center;
+}
+.todo-container,.grid-container{
+  display: grid;
+  grid-template-columns: 200px 180px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+#todo-input,#todo-date,#add-button{
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid green;
+}
+.js-delete{
+  color: white;
+  background-color: tomato;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+#add-button{
+  cursor: pointer;
+}
